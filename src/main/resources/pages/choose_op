@@ -1,0 +1,9 @@
+<#include "_head">
+
+<h3>Select operation</h3>
+
+<form action="op_withdraw" method="post">
+<input type="submit" name="withdraw" value="Cash withdrawal">
+</form>
+
+<#include "_foot">

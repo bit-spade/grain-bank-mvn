@@ -1,0 +1,11 @@
+<#include "_head">
+
+<h3 id="errors">Incorrect PIN entered. Attempts left: ${pin_tries_left}</h3>
+<h3>Enter PIN for the card</h3>
+
+<form action="enter_pin" method="post">
+<input name="pin" length="4">
+<input type="submit" name="enter_pin" value="Enter">
+</form>
+
+<#include "_foot">

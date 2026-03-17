@@ -1,0 +1,9 @@
+<#include "_head">
+
+<h3>Thank you for using the services of Grain Bank</h3>
+
+<form action="init" method="post">
+<input type="submit" value="Return">
+</form>
+
+<#include "_foot">
